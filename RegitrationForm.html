@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="registrationStyle.css" />
+  </head>
+  <body>
+    
+    <video autoplay loop muted id="bgvid">
+      <source src="petal_20250805_163838.mp4" type="video/mp4" id="bgvideo">
+    </video>
+
+      <form class="form">
+        <h1>Registration Form</h1>
+        <p>Fill out this form with the required information</p>
+        <br>
+        <label for="firstname">First Name:</label>
+        <br>
+        <input type="text" name="firstname" id="firstname" required/>
+        <br>
+        <label for="lastname">Last Name:</label>
+        <br>
+        <input type="text" name="lastname" id="lastname" required/>
+        <br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="text" name="email" id="email" required/>
+        <br>
+        <label for="password">Create Password:</label>
+        <br>
+        <input type="password" name="password" id="password" required/>
+        <p></p>
+        <br>
+        <hr>
+        <br>
+        <label>Program</label>
+        <br>
+        <select id="program" name="program" required>
+          <option>[select one]</option>
+            <option value="IT">Information Technology</option>
+            <option value="EE">Electrical Engineering</option>
+            <option value="CE">Civil Engineering</option>
+            <option value="ME">Mechanical Engineering</option>
+            </select>
+        <br>
+        <label>Year Level</label>
+        <br>
+        <select id="yearlevel" name="yearlevel" required>
+          <option>[select one]</option>
+            <option value="1year">1st Year</option>
+            <option value="2year"> 2nd Year</option>
+            <option value="3year">3rd Year</option>
+            <option value="4year">4th Year</option>
+        </select>
+        <br>
+        <input type="checkbox">
+        <label for="terms">I agree in the <a href=""> terms and conditions</a></label>
+        
+        <p>The school ensures data protection by adhering to relevant privacy laws, applying encryption
+        , and requiring informed consent before any external sharing.</p>
+        <br>
+        <hr>
+        <br>
+        
+        <label for="pfp">Upload a Profile Picture:</label>
+        <br>
+        <input type="file" id="pfp" name="pfp" required>
+        <br>
+        <label for="bday">Birthdate:</label>
+        <br>
+        <input type="date" id="birthdate" name="birthdate" required>
+        <br>
+        <br>
+        <label for="specialization">Specialization</label>
+        <br>
+        <select id="specialization" name="specialization" required>
+            <option>[select one]</option>
+            <option value="webdev">Web Development</option>
+            <option value="ai">Artificial Intelligence</option>
+            <option value="gamedev">Game Developer</option>
+            <option value="cybersec">Cyber Security</option>
+        </select>
+        <br>
+        <label for="bio">Bio:</label>
+        <br>
+        <textarea name="bio" id="bio" rows="5" placeholder="I like music..."></textarea>
+        <br>
+        <button type="submit" class="submit-button">Submit</button>
+      </form>
+  </body>
+</html>
