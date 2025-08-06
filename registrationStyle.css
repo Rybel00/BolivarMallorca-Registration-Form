@@ -32,14 +32,14 @@ select, input[type="text"], input[type="password"], input[type= "date"], input[t
     margin-top: 5px;
 }
 select {
-    background-color: #123e1fbe;
+    background-color: #44254782;
     color: white;
 }
 label {
     margin-top: 10px;
 }
 input[type="text"], input[type="password"], input[type= "date"], input[type="file"], textarea {
-    background-color: #123e1cb4;
+    background-color: #44254782;
     color: #ffffff;
 }
 
@@ -62,4 +62,5 @@ input [type="radio"], input [type ="checkbox"] {
 }
 a {
     color: #089d00;
+
 }
