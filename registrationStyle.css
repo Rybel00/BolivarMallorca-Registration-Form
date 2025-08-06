@@ -18,13 +18,14 @@ body {
 .form {
     max-width: 400px;
     margin: auto;
-    background: #275a26bf;
+    background: #fff2fdbf;
     padding: 20px;
     border-radius: 10px;
 
 }
 h1 {
     text-align: center;
+    color: #bc9c1b;
 }
 select, input[type="text"], input[type="password"], input[type= "date"], input[type="file"],textarea {
     display: block;
@@ -62,7 +63,7 @@ input [type="radio"], input [type ="checkbox"] {
     margin-right: 10px;
 }
 a {
-    color: #089d00;
+    color: #a18f48;
 }
 button {
     text-align: center;
@@ -72,3 +73,4 @@ button {
     height: 30px;
     background-color: #d59bcc;
 }
+
