@@ -35,8 +35,9 @@ select {
     background-color: #44254782;
     color: white;
 }
-label {
+label, p {
     margin-top: 10px;
+    color: #584a12;
 }
 input[type="text"], input[type="password"], input[type= "date"], input[type="file"], textarea {
     background-color: #44254782;
@@ -64,3 +65,4 @@ a {
     color: #089d00;
 
 }
+
